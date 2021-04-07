@@ -1,15 +1,15 @@
 .app {
 	display: grid;
-	grid-template-columns: repeat(12, minmax(0, 1fr));
-	gap: 1.5rem;
+	/* grid-template-columns: repeat(12, minmax(0, 1fr)); */
+	/* gap: 1.5rem; */
 	padding: 3rem 12rem;
 }
 
 .app__sidebar {
 	width: 240px;
 	/* height: 100%; */
-	grid-column: 12;
-	padding: 1rem;
+	/* grid-column: 12; */
+	padding: 2rem;
 	padding-bottom: -1rem;
 	line-height: 2rem;
 	font-size: 1rem;
@@ -21,8 +21,8 @@
 	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
 	.app__sidebar {
 		grid-column: span 3 / span 3;
 	}
-}
+} */
