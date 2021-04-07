@@ -34,7 +34,7 @@ const Sidebar = () => {
 				</a>
 			</div>
 
-			<div className="sidebar__contacts" style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
+			<div className="sidebar__contacts" style={{ marginLeft: '-2rem', marginRight: '-2rem' }}>
 				<div className="contact__address">
 					<GoLocation className="" style={{ marginRight: '5px' }} /> <span>Talagang, Pakistan</span>
 				</div>
