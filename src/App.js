@@ -1,9 +1,17 @@
-import './App.css'
+import Sidebar from './conponents/Sidebar'
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">Hello World!</header>
+		<div className="app">
+			<div className="app__sidebar">
+				<Sidebar />
+			</div>
+
+			<div className="app__body">
+				{/* Navbar */}
+
+				{/* Pages */}
+			</div>
 		</div>
 	)
 }
