@@ -1,3 +1,4 @@
+import { AnimatePresence } from 'framer-motion'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import About from './pages/about'
 import Resume from './pages/resume'
@@ -15,11 +16,13 @@ function App() {
 				</div>
 				<div className="flex flex-col col-span-12 overflow-hidden bg-white rounded-2xl dark:bg-black-500 dark:text-white lg:col-span-9 shadow-custom-light dark:shadow-custom-dark">
 					<Navbar />
-					<Switch>
-						<Route exact path="/" component={About} />
-						<Route exact path="/resume" component={Resume} />
-						<Route exact path="/projects" component={Projects} />
-					</Switch>
+					<AnimatePresence exitBeforeEnter>
+						<Switch>
+							<Route exact path="/" component={About} />
+							<Route exact path="/resume" component={Resume} />
+							<Route exact path="/projects" component={Projects} />
+						</Switch>
+					</AnimatePresence>
 				</div>
 			</div>
 		</Router>
