@@ -69,6 +69,11 @@ export const languages = [
 		name: 'Mongodb',
 		level: '65',
 	},
+	{
+		Icon: BsCircleFill,
+		name: 'Tailwind',
+		level: '45',
+	},
 ]
 
 export const tools = [

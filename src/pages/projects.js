@@ -1,7 +1,9 @@
-import { useState } from 'react'
+import { motion } from 'framer-motion'
 import ProjectCard from '../components/ProjectCard'
 import ProjectNavbar from '../components/ProjectNavbar'
 import { projects as projectsData } from '../data'
+import { fadeInUp, routeFade, stagger } from '../animations'
+import { useState } from 'react'
 
 const Projects = () => {
 	const [projects, setProjects] = useState(projectsData)
@@ -24,33 +26,30 @@ const Projects = () => {
 	}
 
 	return (
-		<div
+		<motion.div
 			className="px-5 py-2 overflow-y-scroll "
 			style={{ height: '65vh' }}
-			// variants={routeFade}
-			// initial="hidden"
-			// animate="visible"
-			// exit="exit"
+			variants={routeFade}
+			initial="hidden"
+			animate="visible"
+			exit="exit"
 		>
 			{/* <Head>
 				<title>M Bilal | Web Developer</title>
 			</Head> */}
 			<ProjectNavbar handleFilterCategory={handleFilterCategory} active={active} />
-			<div
-				// variants={stagger} initial="initial" animate="animate"
-				className="relative grid grid-cols-12 gap-4 my-3"
-			>
+			<motion.div variants={stagger} initial="initial" animate="animate" className="relative grid grid-cols-12 gap-4 my-3">
 				{projects.map((project) => (
-					<div
-						// variants={fadeInUp}
+					<motion.div
+						variants={fadeInUp}
 						key={project.id}
 						className="col-span-12 p-2 bg-gray-200 rounded-lg dark:bg-black-200 sm:col-span-6 lg:col-span-4"
 					>
 						<ProjectCard project={project} key={project.id} setShowDetail={setShowDetail} showDetail={showDetail} />
-					</div>
+					</motion.div>
 				))}
-			</div>
-		</div>
+			</motion.div>
+		</motion.div>
 	)
 }
 
