@@ -18,6 +18,7 @@ const ProjectNavbar = (props) => {
 			<NavItem value="all" {...props} />
 			<NavItem value="react" {...props} />
 			<NavItem value="mongo" {...props} />
+			<NavItem value="firebase" {...props} />
 			<NavItem value="express" {...props} />
 			<NavItem value="node" {...props} />
 			<NavItem value="django" {...props} />
