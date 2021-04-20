@@ -23,8 +23,10 @@ const Resume = () => {
 					<h5 className="my-3 text-2xl font-bold">Experience</h5>
 					<div>
 						<h5 className="my-2 text-xl font-bold">Web Developer</h5>
-						<p className="font-semibold">Baon Sara ay.</p>
-						<p className="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<p className="font-semibold">1 year.</p>
+						<p className="my-3">
+							I have build some awesome application. You can see demo in <strong>Projects</strong> page.
+						</p>
 					</div>
 				</motion.div>
 			</div>

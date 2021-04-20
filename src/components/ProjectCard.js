@@ -24,10 +24,10 @@ const ProjectCard = ({
 			<p className="my-2 text-center">{name}</p>
 
 			{showDetail === id && (
-				<div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 dark:bg-black-100 dark:text-gray-100 md:grid-cols-2 gap-x-12 ">
+				<div className="absolute left-0 top-auto grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 dark:bg-black-100 dark:text-gray-100 md:grid-cols-2 gap-x-12 ">
 					<motion.div variants={stagger} initial="initial" animate="animate">
 						<motion.div className="border-4 border-gray-100 " variants={fadeInUp}>
-							<img src={image_path} alt={name} className="overflow-hidden" width={300} height={150} />
+							<img src={image_path} alt={name} className="object-center m-auto overflow-hidden" width={300} height={150} />
 						</motion.div>
 						<motion.div className="flex justify-center my-4 space-x-3" variants={fadeInUp}>
 							<a href={github_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 rounded-sm dark:bg-black-500 ">

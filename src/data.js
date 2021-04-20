@@ -23,7 +23,7 @@ export const services = [
 	{
 		Icon: MdDeveloperMode,
 		title: 'Competitive Coder',
-		about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+		about: 'I am ambitious, hard working and have a never give up attitudewhich enables me to overcome any obstacle that I can ever face.',
 	},
 	{
 		Icon: AiOutlineAntDesign,
@@ -38,11 +38,6 @@ export const services = [
 ]
 
 export const languages = [
-	{
-		Icon: BsCircleFill,
-		name: 'Python',
-		level: '45',
-	},
 	{
 		Icon: BsCircleFill,
 		name: 'JavaScript',
@@ -66,7 +61,12 @@ export const languages = [
 	},
 	{
 		Icon: BsCircleFill,
-		name: 'Mongodb',
+		name: 'Python',
+		level: '45',
+	},
+	{
+		Icon: BsCircleFill,
+		name: 'MongoDB',
 		level: '65',
 	},
 	{
@@ -79,23 +79,18 @@ export const languages = [
 export const tools = [
 	{
 		Icon: BsCircleFill,
-		name: 'Facebook',
+		name: 'VS Code',
 		level: '85',
 	},
 	{
 		Icon: BsCircleFill,
-		name: 'Instagram',
-		level: '45',
+		name: 'Postman',
+		level: '65',
 	},
 	{
 		Icon: BsCircleFill,
-		name: 'Whatsapp',
+		name: 'Git & GitHub',
 		level: '60',
-	},
-	{
-		Icon: BsCircleFill,
-		name: 'Youtube',
-		level: '95',
 	},
 	{
 		Icon: BsCircleFill,
@@ -107,100 +102,34 @@ export const tools = [
 export const projects = [
 	{
 		id: 0,
-		name: 'COVID Tracker',
-		description: 'This app shows a statistical view about corona virus over the world',
-		image_path: '/images/covid.jpg',
-		deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
-		github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
-		category: ['react'],
-		key_techs: ['React', 'Chart.js', 'Material UI'],
-	},
-	{
-		id: 7,
-		name: 'Algorithm Visualizer',
-
-		image_path: '/images/algoVisual.png',
-		deployed_url: 'https://visual-algorithm.web.app/',
-		github_url: 'https://github.com/Dey-Sumit/algorithm-visualizer',
-		category: ['react'],
-		description: 'An web app which shows how an algorithm (path finding or sorting) works with cool animation',
-		key_techs: ['React', 'firebase', 'Framer Motion'],
+		name: 'BT-Network',
+		description: 'This is a social media website just like instagram.',
+		image_path: '/images/bt-network.png',
+		deployed_url: 'https://bt-network.herokuapp.com/',
+		github_url: 'https://github.com/Hafizbali315/B-Network-YT',
+		category: ['react', 'mongo', 'express', 'node', 'redux', 'bootstrap'],
+		key_techs: ['React', 'MongoDB', 'Redux', 'Express', 'Node.js', 'Bootstrap'],
 	},
 
 	{
 		id: 1,
-		name: 'Dev Talks',
-		image_path: '/images/dev.jpg',
-		deployed_url: 'https://dev-talks.herokuapp.com/',
-		github_url: 'https://github.com/Dey-Sumit/Dev-talks',
-		category: ['node', 'mongo', 'react'],
-		description: 'Social Media app for developers who can share project,create posts,etc...',
-		key_techs: ['React', 'Redux', 'Node', 'Express', 'Mongo', 'REST API', 'Bootstrap'],
+		name: 'Developers Portfolio',
+		image_path: '/images/portfolio.png',
+		deployed_url: 'https://developers-portfolio-react.herokuapp.com/',
+		github_url: 'https://github.com/Hafizbali315/developers-portfolio-react',
+		description: 'This is a developers portfolio website',
+		category: ['react'],
+		key_techs: ['React', 'tailwind', 'Framer Motion'],
 	},
 
 	{
 		id: 2,
-		name: 'Realtime Chat App',
-		image_path: '/images/chatapp.jpg',
-		deployed_url: 'https://sumit-chat.netlify.app/',
-		github_url: 'https://github.com/Dey-Sumit/chat-app-socket.io-react-node',
-
-		category: ['node', 'react'],
-		description: 'Basic Realtime Chat App where one can create a room can talk to each other',
-		key_techs: ['React', 'Node', 'Express', 'Socket', 'Bootstrap'],
-	},
-
-	{
-		id: 3,
-		name: 'Tweeter Clone',
-		image_path: '/images/tweetme.jpg',
-		deployed_url: 'http://sumaxtweetme.pythonanywhere.com/',
-		github_url: 'https://github.com/Dey-Sumit/tweetme',
-		category: ['django', 'react'],
-		description: 'First Django Project :) | Typical Social Media App where one can post,like ,comment etc',
-		key_techs: ['React', 'Django', 'Django REST API'],
-	},
-	{
-		id: 4,
-		name: 'Dev Portfolio',
-		image_path: '/images/portfolio.jpg',
-		deployed_url: 'http://suprateem.herokuapp.com/',
-		category: ['vanilla'],
-		github_url: 'https://github.com/Dey-Sumit/tweetme',
-		description: 'Hey, You are seeing this project now...Enjoy',
-		key_techs: ['Next.js', 'Framer Motion', 'TypeScript', 'Tailwind'],
-	},
-
-	{
-		id: 5,
-		name: 'Color Classification using tf.js',
-		image_path: '/images/color.jpg',
-		deployed_url: '!#',
-		github_url: 'https://github.com/Dey-Sumit/color-classification',
-		category: ['express', 'ml'],
-		description: 'Tried ML with JS :) | this app classifies a color using CNN algorithm in browser',
-		key_techs: ['Express', 'TensorFlow.js', 'Vanilla js'],
-	},
-	{
-		id: 6,
-		name: 'YouTube using YouTube ',
-		image_path: '/images/youtubeClone.png',
-		deployed_url: 'https://not-utube.web.app/',
-		github_url: 'https://github.com/Dey-Sumit/youtube-clone-tutorial-up',
-		category: ['express', 'ml'],
-		description:
-			'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-		key_techs: ['React', 'Redux', 'Firebase Auth', 'YouTube API', 'Sass', 'Bootstrap'],
-	},
-	{
-		id: 9,
-		name: 'Football App',
-		image_path: '/images/football.png',
-		deployed_url: 'https://o-my-goal.web.app/',
-		github_url: 'https://github.com/Dey-Sumit/football-app',
-		category: ['react'],
-		description:
-			'o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ',
-		key_techs: ['React', 'Redux', 'Firebase Auth', 'API', 'Sass', 'Bootstrap'],
+		name: 'Pagination',
+		image_path: '/images/pagination.png',
+		deployed_url: 'https://mern-pagination.herokuapp.com/',
+		github_url: 'https://github.com/Hafizbali315/MERN-Pagination',
+		description: 'This is an advanced pagination website',
+		category: ['react', 'bootstrap', 'mongo', 'node', 'express'],
+		key_techs: ['React', 'Bootstrap', 'MongoDB', 'Node', 'Express'],
 	},
 ]

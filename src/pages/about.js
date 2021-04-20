@@ -10,8 +10,8 @@ const About = () => {
 				<title>M Bilal | Web Developer</title>
 			</Head> */}
 			<h4 className="my-3">
-				I am currently doing Computer Engineering (Final year) from University of Engineering and Technology, Taxila. And I don't know why i
-				am doing this.
+				I have keen passion for Web Development. I am ambitious, responsible, and have a never give up attitudewhich enables me to overcome
+				any obstacle that I can ever face.
 			</h4>
 			<div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-black-100" style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}>
 				<h4 className="my-3 text-xl font-semibold tracking-wide text-gray-900">What I am doing</h4>
