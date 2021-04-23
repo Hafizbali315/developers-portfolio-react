@@ -135,12 +135,12 @@ export const projects = [
 
 	{
 		id: 3,
-		name: 'Todo App',
+		name: 'Todo Application',
 		image_path: '/images/todoapp.png',
 		deployed_url: 'https://todos-app-a0f12.web.app/',
 		github_url: 'https://github.com/Hafizbali315/todos-app',
 		description: 'This is a todo App.',
 		category: ['react', 'firebase'],
-		key_techs: ['React', 'Firebase', 'Material UI'],
+		key_techs: ['React', 'Firebase'],
 	},
 ]

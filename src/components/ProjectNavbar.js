@@ -1,5 +1,4 @@
-// import { FunctionComponent } from 'react'
-// import { Category } from '../type'
+
 
 const NavItem = ({ value, active, handleFilterCategory }) => {
 	var className = 'capitalize cursor-pointer hover:text-green'
